@@ -1,0 +1,24 @@
+.img1, .img2, .img3{
+    position:absolute;
+    width: 40%;
+    /* height: ; */
+
+}
+
+.img1{
+    left: 0;
+    top: 0;
+    z-index:-1;
+    /* border-style:dashed ; */
+}
+.img2{
+    left: 50px;
+    top: 50px;
+    z-index: 1;
+    /* border-style: dotted; */
+}
+.img3{
+    left: 100px;
+    top: 100px;
+    z-index: -2;
+}

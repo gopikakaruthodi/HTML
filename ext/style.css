@@ -22,7 +22,7 @@
 }
 .nav{
     color: aliceblue;
-   margin: 100px 200px 50px;
+   margin: 100px 320px 70px;
    text-align: end;
    font-size: small;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -60,7 +60,7 @@
 .last{
     color: aliceblue;
     padding: 3%;
-    margin-left: 62.5%;
+    margin-left: 63%;
     display: flex;
 }
 
