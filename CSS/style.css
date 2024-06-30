@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    background-image: url("../img/blurred-pop-abstract-background-pink.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size:cover ;
+    color: aliceblue;
+    position: relative;
+}
+
+.nav{
+    padding:15px;
+    background-color: rgb(15, 15, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.child1,.child2,.child3,.child4,.child5,.child6,.child7,.child8{
+    margin: 30px;
+}
+
+.child9,.child10,.child11,.child12{
+    padding: 16px;
+    
+}
+.child8{
+    padding-right:21%;
+
+}
+.child9{
+    border: 1px solid;
+    padding: 7px 20px;
+    font-size: 13px;
+    
+}
+
+.sale{
+    margin-top: 15%;
+    margin-left: 60%;
+    position: absolute;
+}
+.s1{
+    font-size:35px;
+}
+.s1,.s2{
+    margin-bottom: 9px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.s2{
+    text-align: center;
+}
+.s3{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: small;
+    text-align: center;
+
+}
+
+.b1{
+    padding: 10px 15px;
+    border-color: rgb(245, 246, 248);
+    margin-left: 25px;
+}
+.img{
+    padding-left: 10%;
+    margin-top: 100px;
+    position: absolute;
+}
