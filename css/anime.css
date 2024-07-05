@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg,rgb(58, 57, 57),rgb(211, 208, 15));
+    background-size: 200% 200%;
+    animation-name: diagonal;
+    animation: diagonal 5s   alternate infinite  ;
+    position: absolute;
+    animation-duration: 2s;
+} 
+
+@keyframes diagonal{
+    0%{
+        background-position: 0% 100%;
+    }
+    50%{
+        background-color: 100% 50%;
+    }
+    100%{
+        background-position: 100% 0%;
+    }
+
+
+}

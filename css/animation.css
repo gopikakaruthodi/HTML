@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parent{
+    width: 100%;
+    /* background-color: coral; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit(minmax=:100px,1fr));
+}
+.child{
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(white,rgb(250, 137, 207));
+    position: absolute;
+    animation-name: anime;
+    animation-duration: 8s;
+    animation-delay: 1s;
+    animation-iteration-count: 7;
+    /* animation-direction: reverse; */
+}
+.child h1{
+    text-align: center;
+    padding-top:40%;
+    font-size: 20px;
+}
+@keyframes anime{
+    /* from{background-color: crimson;}
+    to{background-color: rgb(236, 167, 221);} */
+
+    0%{
+        top: 0; left: 0; background: linear-gradient(white,rgb(250, 137, 207));
+
+    }
+    25%{
+        top: 0; left: 400px; background: linear-gradient(45deg,white,rgb(157, 223, 138)); border-radius: 35%;
+    }
+    50%{
+        top: 400px; left: 400px; background: linear-gradient(90deg,white,rgb(132, 162, 226));border-radius: 50%; 
+        
+    }
+    75%{
+        top: 400px; left: 0; background: linear-gradient(270deg,white,rgb(249, 247, 122));border-radius: 35%; 
+        
+    }
+    100%{
+        top: 0; left: 0; background: linear-gradient(360deg,white,rgb(250, 137, 207));
+
+    }
+}
